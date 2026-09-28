@@ -71,14 +71,15 @@ export default function PfpCanvasPreview({ traits, onRandomize, isRendering, set
           >
             <Grid className="w-4 h-4" />
           </button>
-          <button
+          {/* JSON Metadata button commented out */}
+          {/* <button
             onClick={() => setShowMetadataModal(true)}
             title="View ERC-721 Metadata JSON"
             className="p-1.5 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 border border-zinc-700 font-mono text-xs flex items-center gap-1 transition-colors"
           >
             <Code className="w-4 h-4" />
             <span className="hidden sm:inline">JSON</span>
-          </button>
+          </button> */}
         </div>
       </div>
 
